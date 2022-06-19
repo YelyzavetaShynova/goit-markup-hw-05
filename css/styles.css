@@ -586,10 +586,8 @@ fill: currentColor;
     align-items: center;
     justify-content: center;
     color: var(--header-background-color);
-    transition: color 250ms var(--animation-timing),
-    background-color 250ms var(--animation-timing);
+    transition: background-color 2000ms var(--animation-timing);
 }
-
 .join-icon {
     fill: currentColor;
 }
@@ -713,6 +711,9 @@ fill: currentColor;
     transition: background-color 250ms var(--animation-timing)
 }
 
+.card {
+    transition: box-shadow 250ms var(--animation-timing);
+}
 .card:hover,
 .card:focus {
     background: #FFFFFF;
